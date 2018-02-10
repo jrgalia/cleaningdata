@@ -30,7 +30,7 @@
     names(data.test) <- c(c('subject', 'activity'), features)
 
 
-## merge training and testing sets
+## 1. merge training and testing sets
     data.all <- rbind(data.train, data.test)
 
 ## 2. mean and standard deviation for each measurement
